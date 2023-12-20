@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC-ecom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e3fba6723d6a36991ef483793f0839ba1b0f30a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f10aa2ddca2073397acc9d122b1fa03c9f6961a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC-ecom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC-ecom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
