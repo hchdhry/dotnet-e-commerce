@@ -1,6 +1,20 @@
 @model List<MVC_ecom.Model.Category>
 
-<h1>Category List</h1>
+<div class = "container">
+    <div class="row pt-4 pb-3">
+        <div class = "col-6">
+<h2 class = "text-primary">category list</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-primary" asp-controller="Category" asp-action="create">create category <i
+                    class="bi bi-plus-square-fill"></i></a>
+            
+        </div>
+
+    </div>    
+
+
+
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
@@ -18,3 +32,4 @@
         }
     </tbody>
 </table>
+</div>

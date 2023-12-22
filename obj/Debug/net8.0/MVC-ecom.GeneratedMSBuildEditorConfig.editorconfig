@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/hassan/dotnet/MVC-ecom/MVC-ecom
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/hassan/dotnet/MVC-ecom/MVC-ecom/Views/Category/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/hassan/dotnet/MVC-ecom/MVC-ecom/Views/Category/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

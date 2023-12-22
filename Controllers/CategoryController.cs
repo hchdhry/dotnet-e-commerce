@@ -19,6 +19,12 @@ namespace MVC_ecom.Controllers
             return View(objCategoryList);
 
         }
+
+        public IActionResult Create()
+        {
+            return View();
+
+        }
        
     }
 }
