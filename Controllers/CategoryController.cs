@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.Data.Common;
 using Microsoft.AspNetCore.Mvc;
 using MVC_ecom.data;
@@ -30,6 +31,18 @@ namespace MVC_ecom.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
+            List<Category> objCategoryList = _db.Categories.ToList();
+            foreach(Category Value in objCategoryList ){
+                if(Value.Name.ToLower() == obj.Name.ToLower())
+                {
+                    ModelState.AddModelError("name",$"{obj.Name} already exists");
+                }
+
+            }
+            if (obj.Name == obj.DisplayOrderNumber.ToString())
+            {
+                ModelState.AddModelError("Name","name cannot be the same as display order");
+            }
             if(ModelState.IsValid)
             {
             _db.Categories.Add(obj);
@@ -38,6 +51,22 @@ namespace MVC_ecom.Controllers
             }
             return View();
 
+        }
+
+        public IActionResult Edit(int? id){
+            if(id == null || id == 0)
+            {
+                return NotFound();
+
+            }
+            Category? categoryFromDB = _db.Categories.Find(id);
+            if(categoryFromDB == null){
+                
+                return NotFound();
+            }
+            Console.WriteLine(categoryFromDB);
+
+            return View(categoryFromDB);
         }
     }
 }

@@ -28,7 +28,17 @@
             <tr>
                 <td>@obj.Name</td>
                 <td>@obj.DisplayOrderNumber</td>
+               <td>
+                <div class="w-75 btn-group">
+                    <a class = "btn btn-primary mx-2" asp-controller="Category" asp-action="edit" asp-route-Id="@obj.Id">edit <i class="bi bi-pencil-square"></i></a>
+                    <a class = "btn btn-danger" asp-controller="Category" asp-action="Delete">delete<i class="bi bi-trash3-fill"></i></a>
+          
+            <td/>
+            </div>
+           
+
             </tr>
+            
         }
     </tbody>
 </table>
