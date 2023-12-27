@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data.Common;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MVC_ecom.data;
 using MVC_ecom.Model;
 namespace MVC_ecom.Controllers
@@ -68,5 +69,53 @@ namespace MVC_ecom.Controllers
 
             return View(categoryFromDB);
         }
+
+        [HttpPost]
+        public IActionResult Edit (Category obj)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Categories.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("index");
+            }
+            return View();
+        }
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+
+            }
+            Category? categoryFromDB = _db.Categories.Find(id);
+            if (categoryFromDB == null)
+            {
+
+                return NotFound();
+            }
+            Console.WriteLine(categoryFromDB);
+
+            return View(categoryFromDB);
+        }
+
+        [HttpPost,ActionName("Delete")]
+        public IActionResult DeletePOST(int? id)
+        {
+            Category obj = _db.Categories.Find(id);
+            if(obj == null)
+            {
+                return NotFound();
+
+            }
+           
+                _db.Categories.Remove(obj);
+                _db.SaveChanges();
+                return RedirectToAction("index");
+            }
+            
+        }
+
+
     }
-}
+

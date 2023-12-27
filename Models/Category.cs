@@ -13,7 +13,7 @@ namespace MVC_ecom.Model
         [MaxLength(30, ErrorMessage ="name too long cannot exceed 30 character")]
         [MinLength(2,ErrorMessage ="name too short")]
         
-        public string Name { get; set; } 
+        public string? Name { get; set; } 
       
         
         [DisplayName("Display order")]
