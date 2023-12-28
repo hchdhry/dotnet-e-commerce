@@ -48,7 +48,8 @@ namespace MVC_ecom.Controllers
             {
             _db.Categories.Add(obj);
             _db.SaveChanges();
-            return RedirectToAction("index");
+
+                return RedirectToAction("index");
             }
             return View();
 
@@ -77,6 +78,7 @@ namespace MVC_ecom.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "category updated successfully";
                 return RedirectToAction("index");
             }
             return View();
@@ -111,6 +113,7 @@ namespace MVC_ecom.Controllers
            
                 _db.Categories.Remove(obj);
                 _db.SaveChanges();
+                TempData["success"] = "category deleted successfully";
                 return RedirectToAction("index");
             }
             
