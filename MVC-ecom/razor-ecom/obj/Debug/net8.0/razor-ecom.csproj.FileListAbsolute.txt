@@ -102,3 +102,4 @@
 /Users/hassan/dotnet/MVC-ecom/razor-ecom/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/hassan/dotnet/MVC-ecom/razor-ecom/obj/Debug/net8.0/razor-ecom.csproj.AssemblyReference.cache
 /Users/hassan/dotnet/MVC-ecom/razor-ecom/obj/Debug/net8.0/razor-ecom.csproj.CopyComplete
+/Users/hassan/dotnet/MVC-ecom/razor-ecom/obj/Debug/net8.0/razor-ecom.sourcelink.json

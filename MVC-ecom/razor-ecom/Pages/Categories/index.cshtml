@@ -1,0 +1,50 @@
+@page
+@model razor_ecom.Pages.Categories.IndexModel
+
+<h1>category list</h1>
+
+<p>This is an empty Razor page.</p>
+<div class = "container">
+    <div class="row pt-4 pb-3">
+        <div class = "col-6">
+    
+<h2 class = "text-primary">category list</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-primary" asp-page="Category/create">create category <i
+                    class="bi bi-plus-square-fill"></i></a>
+            
+        </div>
+
+    </div>    
+
+
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Display Order</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model.CategoryList)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.DisplayOrderNumber</td>
+               <td>
+                <div class="w-75 btn-group">
+                    <a class = "btn btn-primary mx-2" asp-page="Category/edit" asp-route-Id="@obj.Id">edit <i class="bi bi-pencil-square"></i></a>
+                    <a class = "btn btn-danger" asp-page="Category/delete"  asp-route-Id="@obj.Id">delete<i class="bi bi-trash3-fill"></i></a>
+          
+            <td/>
+            </div>
+           
+
+            </tr>
+            
+        }
+    </tbody>
+</table>
+</div>
