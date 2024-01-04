@@ -1,9 +1,7 @@
 using razor_ecom.Data;
 using razor_ecom.models;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Linq;
+
 
 namespace razor_ecom.Pages.Categories
 {
