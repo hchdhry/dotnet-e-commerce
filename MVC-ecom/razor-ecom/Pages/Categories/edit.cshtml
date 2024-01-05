@@ -1,0 +1,36 @@
+@page
+@model razor_ecom.Pages.Categories.EditModel
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Edit Category</h2>
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3 row">
+            <div class="mb-3 row">
+                <label asp-for="Category.Name"></label>
+                <input asp-for="Category.Name" class="form-control" type="text">
+                <span asp-validation-for="Category.Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="Category.DisplayOrderNumber"></label>
+                <input asp-for="Category.DisplayOrderNumber" class="form-control">
+                <span asp-validation-for="Category.DisplayOrderNumber" class="text-danger"></span>
+            </div>
+
+        <div class="row">
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary" style="width: 150px;">Update</button>
+            </div>
+            <div class="col-6">
+                <a class="btn btn-secondary border" asp-page="/Category/Index">Back to List</a>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts { 
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
