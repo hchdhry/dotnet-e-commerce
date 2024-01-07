@@ -29,16 +29,15 @@ public class EditModel : PageModel
             return Page();
         }
 
-        public IActionResult Edit(Category obj)
+        public IActionResult OnPost()
         {
-            if (ModelState.IsValid)
-            {
-                _db.Categories.Update(obj);
+           if(ModelState.IsValid){
+                _db.Categories.Update(Category);
                 _db.SaveChanges();
                 TempData["success"] = "category updated successfully";
-                return RedirectToAction("index");
-            }
-            return NotFound();
+                return RedirectToPage("index");
+           }
+            return RedirectToPage("index");
         }
     }
 

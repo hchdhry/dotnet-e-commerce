@@ -1,0 +1,36 @@
+@page
+@model razor_ecom.Pages.Categories.DeleteModel
+
+<form method="post">
+    <input asp-for="Category.Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">delete Category</h2>
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3 row">
+            <label asp-for="Category.Name"></label>
+            <input asp-for="Category.Name" disabled class="form-control" type="text">
+            <span asp-validation-for="Category.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row">
+            <label asp-for="Category.DisplayOrderNumber"></label>
+            <input asp-for="Category.DisplayOrderNumber" disabled class="form-control">
+            <span asp-validation-for="Category.DisplayOrderNumber" class="text-danger"></span>
+        </div>
+
+        <div class="row"></div>
+            <div class="col-6">
+                <button type="submit" class="btn btn-danger" style="width: 150px;">delete</button>
+            </div>
+            <div class="col-6">
+                <a class="btn btn-secondary border" asp-page="/categories/index">Back to List</a>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
