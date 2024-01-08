@@ -3,45 +3,46 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using razor_ecom.Data;
 using razor_ecom.models;
 
-namespace razor_ecom.Pages.Categories{
-public class EditModel : PageModel
+namespace razor_ecom.Pages.Categories
 {
-    private readonly AppDbContext _db;
-
-    [BindProperty]
-    public Category Category {get; set;}
+  
+    public class EditModel : PageModel
+    {
+        private readonly AppDbContext _db;
+        [BindProperty]
+        public Category Category { get; set; }
         public EditModel(AppDbContext db)
         {
             _db = db;
         }
-
-        public IActionResult OnGet(int id)
+        public void OnGet(int? id)
         {
-
-            Category = _db.Categories.Find(id);
-
-            if (Category == null)
+            if (id != null && id != 0)
             {
+                Category = _db.Categories.Find(id);
+            }
+        }
 
-                return NotFound();
+        public IActionResult OnPost(int id)
+        {
+            Category existingCategory = _db.Categories.Find(id);
+
+            if (existingCategory != null)
+            {
+              
+                existingCategory.Name = Category.Name;
+                existingCategory.DisplayOrderNumber = Category.DisplayOrderNumber;
+
+                _db.Categories.Update(existingCategory);
+                _db.SaveChanges();
+
+                TempData["success"] = "Category updated successfully";
+                return RedirectToPage("index");
             }
 
-            return Page();
+            return NotFound();
         }
 
-        public IActionResult OnPost()
-        {
-           if(ModelState.IsValid){
-                _db.Categories.Update(Category);
-                _db.SaveChanges();
-                TempData["success"] = "category updated successfully";
-                return RedirectToPage("index");
-           }
-            return RedirectToPage("index");
-        }
+
     }
-
-
 }
-
-    
