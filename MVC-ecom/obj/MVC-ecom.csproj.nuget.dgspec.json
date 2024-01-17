@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hassan/dotnet/MVC-ecom/MVC-ecom/MVC-ecom.csproj": {}
+  },
+  "projects": {
+    "/Users/hassan/dotnet/MVC-ecom/MVC-ecom/MVC-ecom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hassan/dotnet/MVC-ecom/MVC-ecom/MVC-ecom.csproj",
+        "projectName": "MVC-ecom",
+        "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC-ecom/MVC-ecom.csproj",
+        "packagesPath": "/Users/hassan/.nuget/packages/",
+        "outputPath": "/Users/hassan/dotnet/MVC-ecom/MVC-ecom/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hassan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/MVC.DataAcess.csproj": {
+                "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/MVC.DataAcess.csproj"
+              },
+              "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj": {
+                "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/MVC.DataAcess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/MVC.DataAcess.csproj",
+        "projectName": "MVC.DataAcess",
+        "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/MVC.DataAcess.csproj",
+        "packagesPath": "/Users/hassan/.nuget/packages/",
+        "outputPath": "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hassan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj": {
+                "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj",
+        "projectName": "MVC.Model",
+        "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj",
+        "packagesPath": "/Users/hassan/.nuget/packages/",
+        "outputPath": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hassan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
