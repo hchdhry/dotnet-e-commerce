@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dHFjm8oPyse0L4Dw0Foy843Fp7c8nA6DAis9p1CYaXa1HrHXg/JCOL6FVQZUv+68Glh45XlXDcM3hkO2LRkzzQ==",
+  "dgSpecHash": "v+zzACv1RAY4fGnQcRqnZipC6Rk+RkUzAuceqxCJzCz/7XRORn6Uo+puiKJ9toTZ4GPx1I1Xis5Dt4+SwVNrNg==",
   "success": true,
-  "projectFilePath": "/Users/hassan/dotnet/MVC-ecom/MVC-ecom/MVC-ecom.csproj",
+  "projectFilePath": "/Users/hassan/dotnet-e-commerce/MVC-ecom/MVC-ecom.csproj",
   "expectedPackageFiles": [
     "/Users/hassan/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/hassan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IfV/Y5s68u9bfgiPOgv58fdBU5nLLtU2xk7RDGzsBl4b4ENHrN7aEF+k9IUBn8gB1d1joyhWlmPWgowVWj7QAw==",
+  "dgSpecHash": "ILY6vTbukeT+yRfsG7Ep5x+APEHf8PQcbNS5YLYhgen9Kb5ekzAWBimkwScsUQID5p2ZSgGe7WCgYNpYBbUChw==",
   "success": true,
-  "projectFilePath": "/Users/hassan/dotnet/MVC-ecom/MVC.DataAcess/MVC.DataAcess.csproj",
+  "projectFilePath": "/Users/hassan/dotnet-e-commerce/MVC.DataAcess/MVC.DataAcess.csproj",
   "expectedPackageFiles": [
     "/Users/hassan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/hassan/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

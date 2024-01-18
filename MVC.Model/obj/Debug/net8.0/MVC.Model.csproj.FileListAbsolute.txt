@@ -11,3 +11,16 @@
 /Users/hassan/dotnet/MVC-ecom/MVC.Model/obj/Debug/net8.0/MVC.Model.pdb
 /Users/hassan/dotnet/MVC-ecom/MVC.Model/obj/Debug/net8.0/ref/MVC.Model.dll
 /Users/hassan/dotnet/MVC-ecom/MVC.Model/obj/Debug/net8.0/MVC.Model.csproj.AssemblyReference.cache
+/Users/hassan/dotnet-e-commerce/MVC.Model/bin/Debug/net8.0/MVC.Model.deps.json
+/Users/hassan/dotnet-e-commerce/MVC.Model/bin/Debug/net8.0/MVC.Model.dll
+/Users/hassan/dotnet-e-commerce/MVC.Model/bin/Debug/net8.0/MVC.Model.pdb
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.csproj.AssemblyReference.cache
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.AssemblyInfoInputs.cache
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.AssemblyInfo.cs
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.csproj.CoreCompileInputs.cache
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.sourcelink.json
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.dll
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/refint/MVC.Model.dll
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/MVC.Model.pdb
+/Users/hassan/dotnet-e-commerce/MVC.Model/obj/Debug/net8.0/ref/MVC.Model.dll

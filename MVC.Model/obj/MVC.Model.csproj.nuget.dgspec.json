@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj": {}
+    "/Users/hassan/dotnet-e-commerce/MVC.Model/MVC.Model.csproj": {}
   },
   "projects": {
-    "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj": {
+    "/Users/hassan/dotnet-e-commerce/MVC.Model/MVC.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj",
+        "projectUniqueName": "/Users/hassan/dotnet-e-commerce/MVC.Model/MVC.Model.csproj",
         "projectName": "MVC.Model",
-        "projectPath": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/MVC.Model.csproj",
+        "projectPath": "/Users/hassan/dotnet-e-commerce/MVC.Model/MVC.Model.csproj",
         "packagesPath": "/Users/hassan/.nuget/packages/",
-        "outputPath": "/Users/hassan/dotnet/MVC-ecom/MVC.Model/obj/",
+        "outputPath": "/Users/hassan/dotnet-e-commerce/MVC.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hassan/.nuget/NuGet/NuGet.Config"
