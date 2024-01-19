@@ -1,0 +1,12 @@
+/Users/hassan/dotnet-e-commerce/MVC.Utility/bin/Debug/net8.0/MVC.Utility.deps.json
+/Users/hassan/dotnet-e-commerce/MVC.Utility/bin/Debug/net8.0/MVC.Utility.dll
+/Users/hassan/dotnet-e-commerce/MVC.Utility/bin/Debug/net8.0/MVC.Utility.pdb
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.AssemblyInfoInputs.cache
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.AssemblyInfo.cs
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.csproj.CoreCompileInputs.cache
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.sourcelink.json
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.dll
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/refint/MVC.Utility.dll
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/MVC.Utility.pdb
+/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/Debug/net8.0/ref/MVC.Utility.dll

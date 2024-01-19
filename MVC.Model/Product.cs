@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
-namespace MVC.Model;
+namespace MVC.Model{
 
 public class Product
 {
@@ -37,9 +38,14 @@ public class Product
     [Display(Name = "price 100+")]
     [Range(1, 1000)]
     public double Price100 { get; set; }
+      
 
-    public int CategoryId{get;set;}
+        public int CategoryId{get;set;}
+ 
     [ForeignKey("CategoryId")]
-    public Category Category {get;set;}
+        [ValidateNever]
+        public Category Category {get;set;}
+    
     public string ImageURL{get;set;}
+}
 }

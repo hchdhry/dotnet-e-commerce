@@ -1,7 +1,8 @@
 ﻿using MVC.Model;
+using MVC.Models.ViewModel;
+using MVC.DataAcess;
 using Microsoft.AspNetCore.Mvc;
 using MVC.DataAcess.Repository.IRepository;
-using MVC.Model.ViewModel;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -43,20 +44,20 @@ namespace MVC_ecom.Controllers
         }
 
         [HttpPost]    
-          public IActionResult Create(Product obj)
+          public IActionResult Create(ProductVM obj)
         {
             List<Product> objProductList = _UnitOfWork.product.GetAll().ToList();
             foreach (Product Value in objProductList)
             {
-                if (Value.Title.ToLower() == obj.Title.ToLower())
+                if (Value.Title.ToLower() == obj.product.Title.ToLower())
                 {
-                    ModelState.AddModelError("name", $"{obj.Title} already exists");
+                    ModelState.AddModelError("name", $"{obj.product.Title} already exists");
                 }
             }
 
             if (ModelState.IsValid)
             {
-                _UnitOfWork.product.Add(obj);
+                _UnitOfWork.product.Add(obj.product);
                 _UnitOfWork.Save();
 
                 return RedirectToAction("index");

@@ -1,4 +1,4 @@
-@model MVC.Model.ViewModel.ProductVM
+@model MVC.Models.ViewModel.ProductVM
 
 <form method="post">
     <div class="border p-3 mt-4">
@@ -53,6 +53,14 @@
             <select asp-for="product.CategoryId" asp-items="@Model.CategoryList" class="form-control"></select>
             <span asp-validation-for="product.CategoryId" class="text-danger"></span>
         </div>
+
+        <div class="mb-3 row">
+            <label asp-for="product.ImageURL"></label>
+            <input asp-for="product.ImageURL" class="form-control">
+            <span asp-validation-for="product.ImageURL" class="text-danger"></span>
+        </div>
+
+      
         
         <div class="row">
             <div class="col-6">

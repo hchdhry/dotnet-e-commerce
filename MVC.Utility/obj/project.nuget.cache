@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HK8NVkBKHDBqB5MDDYj3H+mEJWkCaxTxYmXcPN1VKArEdYwNzxQA9kMLRYMh0uxZQ7D3/4osg7CXHsY0FYKEjA==",
+  "dgSpecHash": "VE6GKL3RBMUWmlv72PtM4iAy9xkmV3aKoc+bGnV/gCGyE70gepSuDFRBrsgZvdL6YrX4XMWFiaksJdf+HRV+dw==",
   "success": true,
-  "projectFilePath": "/Users/hassan/dotnet/MVC-ecom/MVC.Utility/MVC.Utility.csproj",
+  "projectFilePath": "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
