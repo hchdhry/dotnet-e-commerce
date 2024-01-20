@@ -24,9 +24,9 @@ namespace MVC_ecom.Controllers
 
         public IActionResult Create()
         {
-            IEnumerable<SelectListItem> CategoryList = _UnitOfWork.product.GetAll().Select
+            IEnumerable<SelectListItem> CategoryList = _UnitOfWork.category.GetAll().Select
             (u => new SelectListItem{
-                Text = u.Title,
+                Text = u.Name,
                 Value = u.Id.ToString()
             });
 
@@ -61,6 +61,20 @@ namespace MVC_ecom.Controllers
                 _UnitOfWork.Save();
 
                 return RedirectToAction("index");
+            }
+            else
+            {
+                ProductVM productVM= new()
+                {
+                    CategoryList = _UnitOfWork.category.GetAll().Select
+            (u => new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.Id.ToString()
+            }),
+                product = new Product()
+                };
+
             }
             return View();
         }
