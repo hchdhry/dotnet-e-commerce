@@ -7,7 +7,7 @@
 <h2 class = "text-primary">category list</h2>
         </div>
         <div class="col-6 text-end">
-            <a class="btn btn-primary" asp-area="Admin" asp-controller="Product" asp-action="create">create category <i
+            <a class="btn btn-primary" asp-area="Admin" asp-controller="Product" asp-action="upsert">create category <i
                     class="bi bi-plus-square-fill"></i></a>
             
         </div>
@@ -32,7 +32,7 @@
                  <td>@obj.CategoryId</td>
                <td>
                 <div class="w-75 btn-group">
-                    <a class = "btn btn-primary mx-2" asp-controller="Product" asp-action="edit" asp-route-Id="@obj.Id">edit <i class="bi bi-pencil-square"></i></a>
+                    <a class = "btn btn-primary mx-2" asp-controller="Product" asp-action="upsert" asp-route-Id="@obj.Id">edit <i class="bi bi-pencil-square"></i></a>
                     <a class = "btn btn-danger" asp-controller="Product" asp-action="delete" asp-route-Id="@obj.Id">delete<i class="bi bi-trash3-fill"></i></a>
           
             <td/>

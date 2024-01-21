@@ -22,25 +22,28 @@ namespace MVC_ecom.Controllers
             return View(objProductList);
         }
 
-        public IActionResult Create()
+        public IActionResult Upsert(int ? id,IFormFile file)
         {
-            IEnumerable<SelectListItem> CategoryList = _UnitOfWork.category.GetAll().Select
-            (u => new SelectListItem{
-                Text = u.Name,
-                Value = u.Id.ToString()
-            });
-
             ProductVM productVM = new()
             {
-                CategoryList = CategoryList,
+                CategoryList = _UnitOfWork.category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
                 product = new Product()
-
             };
+            if (id == null || id == 0)
+            {
+                return View(productVM);
+            }
+            else
+            {
+                productVM.product = _UnitOfWork.product.get(u=>u.Id ==id);
+                return View(productVM);
+            }
             
             
-            
-            
-            return View(productVM);
         }
 
         [HttpPost]    
@@ -137,7 +140,7 @@ namespace MVC_ecom.Controllers
             _UnitOfWork.Save();
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("index");
-            //test//
+           
         }
     }
 }
