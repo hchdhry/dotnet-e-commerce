@@ -137,6 +137,7 @@ namespace MVC_ecom.Controllers
             _UnitOfWork.Save();
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("index");
+            //test//
         }
     }
 }
