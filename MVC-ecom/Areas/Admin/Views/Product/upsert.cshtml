@@ -26,8 +26,8 @@
 
         <div class="mb-3 row">
             <label asp-for="product.Description"></label>
-            <input asp-for="product.Description" class="form-control">
-            <span asp-validation-for="product.Description" class="text-danger"></span>
+            <textarea asp-for="product.Description" class="form-control"></textarea>
+    
         </div>
         <div class="mb-3 row">
             <label asp-for="product.ListPrice"></label>
@@ -57,7 +57,7 @@
 
         <div class="mb-3 row">
             <label asp-for="product.ImageURL"></label>
-            <input asp-for="product.ImageURL" type="file" class="form-control">
+            <input asp-for="product.ImageURL" type="file" name="file" class="form-control">
             <span asp-validation-for="product.ImageURL" class="text-danger"></span>
         </div>
 
@@ -82,6 +82,21 @@
     </div>
 </form>
 @section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'ai tinycomments mentions anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed permanentpen footnotes advtemplate advtable advcode editimage tableofcontents mergetags powerpaste tinymcespellchecker autocorrect a11ychecker typography inlinecss',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | align lineheight | tinycomments | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [
+                { value: 'First.Name', title: 'First Name' },
+                { value: 'Email', title: 'Email' },
+            ],
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        });
+    </script>
+   
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }

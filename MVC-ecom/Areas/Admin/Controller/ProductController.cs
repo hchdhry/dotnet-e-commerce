@@ -5,16 +5,20 @@ using Microsoft.AspNetCore.Mvc;
 using MVC.DataAcess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace MVC_ecom.Controllers
 {
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _UnitOfWork;
-        public ProductController(IUnitOfWork unitOfWork)
+        private readonly IWebHostEnvironment _WebHostEnviroment;
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _UnitOfWork = unitOfWork;
+            _WebHostEnviroment = webHostEnvironment;
         }
+
 
         public IActionResult Index()
         {
@@ -22,7 +26,7 @@ namespace MVC_ecom.Controllers
             return View(objProductList);
         }
 
-        public IActionResult Upsert(int ? id,IFormFile file)
+        public IActionResult Upsert(int ? id)
         {
             ProductVM productVM = new()
             {
@@ -46,13 +50,15 @@ namespace MVC_ecom.Controllers
             
         }
 
-        [HttpPost]    
-          public IActionResult Create(ProductVM obj)
+        [HttpPost]
+        [HttpPost]
+        public IActionResult Upsert(ProductVM obj, IFormFile? file)
         {
             List<Product> objProductList = _UnitOfWork.product.GetAll().ToList();
-            foreach (Product Value in objProductList)
+
+            foreach (Product value in objProductList)
             {
-                if (Value.Title.ToLower() == obj.product.Title.ToLower())
+                if (value.Title.ToLower() == obj.product.Title.ToLower())
                 {
                     ModelState.AddModelError("name", $"{obj.product.Title} already exists");
                 }
@@ -60,6 +66,20 @@ namespace MVC_ecom.Controllers
 
             if (ModelState.IsValid)
             {
+                string wwwRootPath = _WebHostEnviroment.WebRootPath;
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                string productPath = Path.Combine(wwwRootPath, "images", "product");
+
+                // Create the directory if it doesn't exist
+                Directory.CreateDirectory(productPath);
+
+                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                {
+                    file.CopyTo(fileStream);
+                }
+
+                obj.product.ImageURL = Path.Combine("/images/product", fileName);
+
                 _UnitOfWork.product.Add(obj.product);
                 _UnitOfWork.Save();
 
@@ -67,50 +87,19 @@ namespace MVC_ecom.Controllers
             }
             else
             {
-                ProductVM productVM= new()
+                // Return the view with errors
+                obj.CategoryList = _UnitOfWork.category.GetAll().Select(u => new SelectListItem
                 {
-                    CategoryList = _UnitOfWork.category.GetAll().Select
-            (u => new SelectListItem
-            {
-                Text = u.Name,
-                Value = u.Id.ToString()
-            }),
-                product = new Product()
-                };
-
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+                return View(obj);
             }
-            return View();
         }
 
 
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Product? productFromDB = _UnitOfWork.product.get(u => u.Id == id);
-            if (productFromDB == null)
-            {
-                return NotFound();
-            }
-            Console.WriteLine(productFromDB);
 
-            return View(productFromDB);
-        }
 
-        [HttpPost]
-        public IActionResult Edit(Product obj)
-        {
-            if (ModelState.IsValid)
-            {
-                _UnitOfWork.product.Update(obj);
-                _UnitOfWork.Save();
-                TempData["success"] = "Product updated successfully";
-                return RedirectToAction("index");
-            }
-            return View();
-        }
 
         public IActionResult Delete(int? id)
         {

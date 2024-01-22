@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace MVC.Model{
@@ -45,6 +46,7 @@ public class Product
     [ForeignKey("CategoryId")]
         [ValidateNever]
         public Category Category {get;set;}
+    
     
     public string ImageURL{get;set;}
 }
