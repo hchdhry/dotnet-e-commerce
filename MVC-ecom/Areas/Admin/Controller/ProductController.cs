@@ -26,7 +26,7 @@ namespace MVC_ecom.Controllers
             return View(objProductList);
         }
 
-        public IActionResult Upsert(int ? id)
+        public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new()
             {
@@ -43,14 +43,14 @@ namespace MVC_ecom.Controllers
             }
             else
             {
-                productVM.product = _UnitOfWork.product.get(u=>u.Id ==id);
+                productVM.product = _UnitOfWork.product.get(u => u.Id == id);
                 return View(productVM);
             }
-            
-            
+
+
         }
 
-        [HttpPost]
+
         [HttpPost]
         public IActionResult Upsert(ProductVM obj, IFormFile? file)
         {
@@ -64,19 +64,20 @@ namespace MVC_ecom.Controllers
                 }
             }
 
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && file!=null)
             {
+              
                 string wwwRootPath = _WebHostEnviroment.WebRootPath;
                 string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
                 string productPath = Path.Combine(wwwRootPath, "images", "product");
 
-                // Create the directory if it doesn't exist
-                Directory.CreateDirectory(productPath);
 
-                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
-                {
-                    file.CopyTo(fileStream);
-                }
+                 Directory.CreateDirectory(productPath);
+
+                 using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                 {
+                     file.CopyTo(fileStream);
+                 }
 
                 obj.product.ImageURL = Path.Combine("/images/product", fileName);
 
@@ -84,10 +85,12 @@ namespace MVC_ecom.Controllers
                 _UnitOfWork.Save();
 
                 return RedirectToAction("index");
+                
             }
+            
             else
             {
-                // Return the view with errors
+
                 obj.CategoryList = _UnitOfWork.category.GetAll().Select(u => new SelectListItem
                 {
                     Text = u.Name,
@@ -129,7 +132,7 @@ namespace MVC_ecom.Controllers
             _UnitOfWork.Save();
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("index");
-           
+
         }
     }
 }
