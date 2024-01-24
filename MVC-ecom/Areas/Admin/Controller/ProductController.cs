@@ -13,10 +13,10 @@ namespace MVC_ecom.Controllers
     {
         private readonly IUnitOfWork _UnitOfWork;
         private readonly IWebHostEnvironment _WebHostEnviroment;
-        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnviroment)
         {
             _UnitOfWork = unitOfWork;
-            _WebHostEnviroment = webHostEnvironment;
+            _WebHostEnviroment = webHostEnviroment;
         }
 
 
@@ -49,54 +49,58 @@ namespace MVC_ecom.Controllers
 
 
         }
-
-
         [HttpPost]
-        public IActionResult Upsert(ProductVM obj, IFormFile? file)
+        public IActionResult Upsert(ProductVM productVM, IFormFile? file)
         {
-            List<Product> objProductList = _UnitOfWork.product.GetAll().ToList();
-
-            foreach (Product value in objProductList)
+            if (ModelState.IsValid)
             {
-                if (value.Title.ToLower() == obj.product.Title.ToLower())
-                {
-                    ModelState.AddModelError("name", $"{obj.product.Title} already exists");
-                }
-            }
-
-            if (ModelState.IsValid && file!=null)
-            {
-              
                 string wwwRootPath = _WebHostEnviroment.WebRootPath;
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                string productPath = Path.Combine(wwwRootPath, "images", "product");
+                if (file != null)
+                {
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string productPath = Path.Combine(wwwRootPath, "images", "product");
 
+                    if (!string.IsNullOrEmpty(productVM.product.ImageURL))
+                    {
+                        //delete the old image
+                        var oldImagePath =
+                            Path.Combine(wwwRootPath, productVM.product.ImageURL.TrimStart('\\'));
 
-                 Directory.CreateDirectory(productPath);
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
 
-                 using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
-                 {
-                     file.CopyTo(fileStream);
-                 }
+                    using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
 
-                obj.product.ImageURL = Path.Combine("/images/product", fileName);
+                    productVM.product.ImageURL = @"\images\product\" + fileName;
+                }
 
-                _UnitOfWork.product.Add(obj.product);
+                if (productVM.product.Id == 0)
+                {
+                    _UnitOfWork.product.Add(productVM.product);
+                }
+                else
+                {
+                    _UnitOfWork.product.Update(productVM.product);
+                }
+
                 _UnitOfWork.Save();
-
-                return RedirectToAction("index");
-                
+                TempData["success"] = "Product created successfully";
+                return RedirectToAction("Index");
             }
-            
             else
             {
-
-                obj.CategoryList = _UnitOfWork.category.GetAll().Select(u => new SelectListItem
+                productVM.CategoryList = _UnitOfWork.category.GetAll().Select(u => new SelectListItem
                 {
                     Text = u.Name,
                     Value = u.Id.ToString()
                 });
-                return View(obj);
+                return View(productVM);
             }
         }
 
