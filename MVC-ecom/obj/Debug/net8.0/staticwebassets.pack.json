@@ -21,8 +21,32 @@
       "PackagePath": "staticwebassets/images/product/4427cbde-d15c-45b0-9680-e86743faafec.jpeg"
     },
     {
+      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/51df03f5-f7f5-4894-8e2c-1f09b449c929.jpeg",
+      "PackagePath": "staticwebassets/images/product/51df03f5-f7f5-4894-8e2c-1f09b449c929.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/6f2e2021-0cc9-46d3-a4d3-838a37c75adc.jpeg",
+      "PackagePath": "staticwebassets/images/product/6f2e2021-0cc9-46d3-a4d3-838a37c75adc.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/7c933697-216c-42d2-b026-ce48f1107b2f.jpeg",
+      "PackagePath": "staticwebassets/images/product/7c933697-216c-42d2-b026-ce48f1107b2f.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/81d0dd87-02a8-4431-a5e3-5a452c5db640.jpeg",
+      "PackagePath": "staticwebassets/images/product/81d0dd87-02a8-4431-a5e3-5a452c5db640.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/a36bb2c9-024f-42d6-b194-a9f229c72a65.jpeg",
+      "PackagePath": "staticwebassets/images/product/a36bb2c9-024f-42d6-b194-a9f229c72a65.jpeg"
+    },
+    {
       "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/b85e2125-a8d4-42c7-b1b7-1bac45e19992.jpeg",
       "PackagePath": "staticwebassets/images/product/b85e2125-a8d4-42c7-b1b7-1bac45e19992.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/js/product.js",
+      "PackagePath": "staticwebassets/js/product.js"
     },
     {
       "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/js/site.js",

@@ -20,9 +20,19 @@ namespace MVC.DataAcess.Repository
 
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string ? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+            if (!string.IsNullOrEmpty(includeProperties)){
+
+            foreach(var Property in includeProperties.
+            Split(new char[]{','},StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(Property);
+
+            }
+            }
+       
             return query.ToList();
         }
 
@@ -44,9 +54,19 @@ namespace MVC.DataAcess.Repository
             dbSet.RemoveRange(entity);
         }
 
-        public T get(Expression<Func<T, bool>> filter)
+        public T get(Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+
+                foreach (var Property in includeProperties.
+                Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(Property);
+
+                }
+            }
             query = query.Where(filter);
             return query.FirstOrDefault();
         }

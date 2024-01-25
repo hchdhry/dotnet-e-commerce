@@ -42,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hassan/dotnet-e-commerce/MVC-ecom/Areas/Admin/Views/Product/delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9kZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/hassan/dotnet-e-commerce/MVC-ecom/Areas/Admin/Views/Product/edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9lZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

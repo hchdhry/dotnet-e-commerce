@@ -16,32 +16,23 @@
 
 
 
-<table class="table table-bordered table-striped">
+<table id="tblData"class="table table-bordered table-striped">
     <thead>
-        <tr>
-            <th>Category Name</th>
-            <th>Display Order</th>
-        </tr>
+            <tr>
+                <th>Title</th>
+                <th>ISBN</th>
+                <th>Price</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th></th>
+            </tr>
     </thead>
     <tbody>
-        @foreach (var obj in Model)
-        {
-            <tr>
-                <td>@obj.Title</td>
-                <td>@obj.Author</td>
-                 <td>@obj.CategoryId</td>
-               <td>
-                <div class="w-75 btn-group">
-                    <a class = "btn btn-primary mx-2" asp-controller="Product" asp-action="upsert" asp-route-Id="@obj.Id">edit <i class="bi bi-pencil-square"></i></a>
-                    <a class = "btn btn-danger" asp-controller="Product" asp-action="delete" asp-route-Id="@obj.Id">delete<i class="bi bi-trash3-fill"></i></a>
-          
-            <td/>
-            </div>
-           
-
-            </tr>
-            
-        }
+     
     </tbody>
 </table>
 </div>
+
+@section Scripts{
+    <script src="~/js/product.js"></script>
+}
