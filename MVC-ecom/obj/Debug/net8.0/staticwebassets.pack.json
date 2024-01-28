@@ -1,287 +1,307 @@
 {
   "Files": [
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/scopedcss/projectbundle/MVC-ecom.bundle.scp.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/scopedcss/projectbundle/MVC-ecom.bundle.scp.css",
       "PackagePath": "staticwebassets/MVC-ecom.bundle.scp.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/css/site.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/favicon.ico",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/24980b41-d785-44d7-9136-1be0dbd6ee2b.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/1e5d35fe-97f0-4885-8a05-4ffe93dc34f7.jpeg",
+      "PackagePath": "staticwebassets/images/product/1e5d35fe-97f0-4885-8a05-4ffe93dc34f7.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/238a0eb1-4781-49c3-8f15-4d1eb1b0b5d3.jpeg",
+      "PackagePath": "staticwebassets/images/product/238a0eb1-4781-49c3-8f15-4d1eb1b0b5d3.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/24980b41-d785-44d7-9136-1be0dbd6ee2b.jpeg",
       "PackagePath": "staticwebassets/images/product/24980b41-d785-44d7-9136-1be0dbd6ee2b.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/27aece1d-6982-445d-9ab1-3df30b5919b8.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/27aece1d-6982-445d-9ab1-3df30b5919b8.jpeg",
       "PackagePath": "staticwebassets/images/product/27aece1d-6982-445d-9ab1-3df30b5919b8.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/4427cbde-d15c-45b0-9680-e86743faafec.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/4427cbde-d15c-45b0-9680-e86743faafec.jpeg",
       "PackagePath": "staticwebassets/images/product/4427cbde-d15c-45b0-9680-e86743faafec.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/51df03f5-f7f5-4894-8e2c-1f09b449c929.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/468acca3-d3fc-4de8-92e1-3a444741a7c5.jpeg",
+      "PackagePath": "staticwebassets/images/product/468acca3-d3fc-4de8-92e1-3a444741a7c5.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/51df03f5-f7f5-4894-8e2c-1f09b449c929.jpeg",
       "PackagePath": "staticwebassets/images/product/51df03f5-f7f5-4894-8e2c-1f09b449c929.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/6f2e2021-0cc9-46d3-a4d3-838a37c75adc.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/6f2e2021-0cc9-46d3-a4d3-838a37c75adc.jpeg",
       "PackagePath": "staticwebassets/images/product/6f2e2021-0cc9-46d3-a4d3-838a37c75adc.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/7c933697-216c-42d2-b026-ce48f1107b2f.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/7c933697-216c-42d2-b026-ce48f1107b2f.jpeg",
       "PackagePath": "staticwebassets/images/product/7c933697-216c-42d2-b026-ce48f1107b2f.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/81d0dd87-02a8-4431-a5e3-5a452c5db640.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/81d0dd87-02a8-4431-a5e3-5a452c5db640.jpeg",
       "PackagePath": "staticwebassets/images/product/81d0dd87-02a8-4431-a5e3-5a452c5db640.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/a36bb2c9-024f-42d6-b194-a9f229c72a65.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/92dfa148-362a-4aaf-a352-7ee0f755f7ce.jpeg",
+      "PackagePath": "staticwebassets/images/product/92dfa148-362a-4aaf-a352-7ee0f755f7ce.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/a36bb2c9-024f-42d6-b194-a9f229c72a65.jpeg",
       "PackagePath": "staticwebassets/images/product/a36bb2c9-024f-42d6-b194-a9f229c72a65.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/b85e2125-a8d4-42c7-b1b7-1bac45e19992.jpeg",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/b85e2125-a8d4-42c7-b1b7-1bac45e19992.jpeg",
       "PackagePath": "staticwebassets/images/product/b85e2125-a8d4-42c7-b1b7-1bac45e19992.jpeg"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/js/product.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/eb49aef8-60b2-4cef-a159-90264a37a77b.jpeg",
+      "PackagePath": "staticwebassets/images/product/eb49aef8-60b2-4cef-a159-90264a37a77b.jpeg"
+    },
+    {
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/js/product.js",
       "PackagePath": "staticwebassets/js/product.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/js/site.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/hassan/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
