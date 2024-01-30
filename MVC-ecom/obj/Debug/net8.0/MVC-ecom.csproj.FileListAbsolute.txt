@@ -720,3 +720,5 @@
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/MVC-ecom.pdb
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/MVC-ecom.genruntimeconfig.cache
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/ref/MVC-ecom.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.UI.dll
