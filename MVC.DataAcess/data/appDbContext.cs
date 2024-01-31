@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using MVC.Model;
 
 
 namespace MVC.DataAcess.data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext>options) : base(options){
 
@@ -16,6 +18,7 @@ namespace MVC.DataAcess.data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
            modelBuilder.Entity<Category>().HasData(
             new Category{Id=1, Name = "Action", DisplayOrderNumber = 1},
             new Category {Id = 2, Name = "sciFi", DisplayOrderNumber = 2},

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OOZClt+e05xTGEG6vGu09kwsey3khPnEGeAWWaroQWc=",
+  "Hash": "QJUhOjj73vkY3o1XCaB+4/RHqYCxuayiNVmQASdPQn0=",
   "Source": "MVC-ecom",
   "BasePath": "_content/MVC-ecom",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/product/24980b41-d785-44d7-9136-1be0dbd6ee2b.jpeg"
+    },
+    {
+      "Identity": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/249b81f2-9ff0-4626-9593-6640460788e8.jpeg",
+      "SourceId": "MVC-ecom",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/",
+      "BasePath": "_content/MVC-ecom",
+      "RelativePath": "images/product/249b81f2-9ff0-4626-9593-6640460788e8.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/product/249b81f2-9ff0-4626-9593-6640460788e8.jpeg"
     },
     {
       "Identity": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/27aece1d-6982-445d-9ab1-3df30b5919b8.jpeg",

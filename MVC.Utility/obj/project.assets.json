@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
+      "projectUniqueName": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
       "projectName": "MVC.Utility",
-      "projectPath": "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
+      "projectPath": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
       "packagesPath": "/Users/hassan/.nuget/packages/",
-      "outputPath": "/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/",
+      "outputPath": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hassan/.nuget/NuGet/NuGet.Config"
