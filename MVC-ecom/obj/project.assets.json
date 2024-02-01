@@ -4713,6 +4713,21 @@
         "runtime": {
           "bin/placeholder/MVC.Model.dll": {}
         }
+      },
+      "MVC.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
+          "Microsoft.AspNetCore.Identity.UI": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MVC.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVC.Utility.dll": {}
+        }
       }
     }
   },
@@ -13358,12 +13373,18 @@
       "type": "project",
       "path": "../MVC.Model/MVC.Model.csproj",
       "msbuildProject": "../MVC.Model/MVC.Model.csproj"
+    },
+    "MVC.Utility/1.0.0": {
+      "type": "project",
+      "path": "../MVC.Utility/MVC.Utility.csproj",
+      "msbuildProject": "../MVC.Utility/MVC.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "MVC.DataAcess >= 1.0.0",
       "MVC.Model >= 1.0.0",
+      "MVC.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.0",
@@ -13403,6 +13424,9 @@
             },
             "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Model/MVC.Model.csproj": {
               "projectPath": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Model/MVC.Model.csproj"
+            },
+            "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj": {
+              "projectPath": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj"
             }
           }
         }

@@ -12,6 +12,7 @@ namespace MVC.DataAcess.data
 
         }
         public DbSet<Category>Categories { get; set; }
+        public DbSet<AppUser> User { get; set; }
         public DbSet<Product>Product{get;set;}
         public AppDbContext() { }
 

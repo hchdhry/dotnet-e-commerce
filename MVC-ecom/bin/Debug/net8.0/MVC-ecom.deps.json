@@ -10,6 +10,7 @@
         "dependencies": {
           "MVC.DataAcess": "1.0.0",
           "MVC.Model": "1.0.0",
+          "MVC.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
           "Microsoft.AspNetCore.Identity.UI": "8.0.0",
@@ -2731,6 +2732,16 @@
         "runtime": {
           "MVC.Model.dll": {}
         }
+      },
+      "MVC.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
+          "Microsoft.AspNetCore.Identity.UI": "8.0.0"
+        },
+        "runtime": {
+          "MVC.Utility.dll": {}
+        }
       }
     }
   },
@@ -4622,6 +4633,11 @@
       "sha512": ""
     },
     "MVC.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MVC.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

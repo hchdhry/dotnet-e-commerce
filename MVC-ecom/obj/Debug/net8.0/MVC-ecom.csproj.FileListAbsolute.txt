@@ -726,3 +726,5 @@
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/MVC.Utility.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/MVC.Utility.pdb
