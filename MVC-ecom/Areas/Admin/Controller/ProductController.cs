@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace MVC_ecom.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _UnitOfWork;

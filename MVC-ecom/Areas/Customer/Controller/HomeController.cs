@@ -5,6 +5,8 @@ using MVC.Model;
 using MVC_ecom.Models;
 
 namespace MVC_ecom.Controllers;
+[Area("Customer")]
+
 
 public class HomeController : Controller
 {

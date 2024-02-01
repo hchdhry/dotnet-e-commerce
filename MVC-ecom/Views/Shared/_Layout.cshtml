@@ -23,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav me-auto>
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home <i
                                     class="bi bi-house-door-fill"></i></a>
@@ -53,6 +53,9 @@
                                     <hr class="dropdown-divider">
                                 </li>
                             </ul>
+                        </li>
+                        <li>
+                        <partial name="_LoginPartial">
                         </li>
                     </ul>
                 </div>

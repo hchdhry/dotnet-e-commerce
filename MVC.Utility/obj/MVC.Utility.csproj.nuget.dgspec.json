@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj": {}
+    "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj": {}
   },
   "projects": {
-    "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj": {
+    "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
+        "projectUniqueName": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
         "projectName": "MVC.Utility",
-        "projectPath": "/Users/hassan/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
+        "projectPath": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/MVC.Utility.csproj",
         "packagesPath": "/Users/hassan/.nuget/packages/",
-        "outputPath": "/Users/hassan/dotnet-e-commerce/MVC.Utility/obj/",
+        "outputPath": "/Users/hassan/dotnet/dotnet-e-commerce/MVC.Utility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hassan/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,6 +7,7 @@ using MVC.DataAcess.data;
 using MVC.Model;
 namespace MVC_ecom.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _UnitOfWork;

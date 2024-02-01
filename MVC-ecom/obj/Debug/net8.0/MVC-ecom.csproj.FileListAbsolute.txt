@@ -488,6 +488,8 @@
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/MVC-ecom.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/MVC-ecom.pdb
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Humanizer.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.UI.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
@@ -686,7 +688,6 @@
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
-/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
@@ -720,5 +721,10 @@
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/MVC-ecom.pdb
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/MVC-ecom.genruntimeconfig.cache
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/ref/MVC-ecom.dll
-/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/MVC.Utility.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/MVC.Utility.pdb
