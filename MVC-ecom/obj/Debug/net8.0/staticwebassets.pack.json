@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets/images/product/eb49aef8-60b2-4cef-a159-90264a37a77b.jpeg"
     },
     {
+      "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/images/product/f1ad2bd7-8f4c-48a2-8dd0-471e1163ed87.jpeg",
+      "PackagePath": "staticwebassets/images/product/f1ad2bd7-8f4c-48a2-8dd0-471e1163ed87.jpeg"
+    },
+    {
       "Id": "/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/wwwroot/js/product.js",
       "PackagePath": "staticwebassets/js/product.js"
     },

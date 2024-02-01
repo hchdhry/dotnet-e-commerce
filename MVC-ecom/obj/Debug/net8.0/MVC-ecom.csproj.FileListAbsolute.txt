@@ -721,3 +721,8 @@
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/MVC-ecom.pdb
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/MVC-ecom.genruntimeconfig.cache
 /Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/obj/Debug/net8.0/ref/MVC-ecom.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/hassan/dotnet/dotnet-e-commerce/MVC-ecom/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
