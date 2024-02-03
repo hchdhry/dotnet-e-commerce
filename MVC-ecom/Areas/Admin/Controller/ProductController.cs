@@ -27,6 +27,7 @@ namespace MVC_ecom.Controllers
             return View(objProductList);
         }
 
+// upsert = update + inset//
         public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new()
