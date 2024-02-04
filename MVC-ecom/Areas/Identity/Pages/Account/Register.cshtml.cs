@@ -20,6 +20,8 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using MVC.Utility;
 using MVC.Model;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MVC_ecom.Areas.Identity.Pages.Account
 {
@@ -103,23 +105,46 @@ namespace MVC_ecom.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            public string? Role {get;set;}
+
+            [ValidateNever]
+            public IEnumerable<SelectListItem> RoleList {get; set;}
         }
 
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if (!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult())
+
+            if (!await _roleManager.RoleExistsAsync(SD.Role_Customer))
             {
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Customer)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Company)).GetAwaiter().GetResult();
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_Customer));
             }
 
+            if (!await _roleManager.RoleExistsAsync(SD.Role_Employee))
+            {
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee));
+            }
 
-            ReturnUrl = returnUrl;
-            ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            if (!await _roleManager.RoleExistsAsync(SD.Role_Admin))
+            {
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin));
+            }
+
+            if (!await _roleManager.RoleExistsAsync(SD.Role_Company))
+            {
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_Company));
+            }
+             Input = new ()
+             {
+                 RoleList = _roleManager.Roles.Select(x => new SelectListItem
+                 {
+                     Text = x.Name,
+                     Value = x.Name
+                 }).ToList()
+             };
         }
+
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
@@ -135,6 +160,14 @@ namespace MVC_ecom.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+
+                    if(!string.IsNullOrEmpty(Input.Role)){
+                       await _userManager.AddToRoleAsync(user,Input.Role);
+                    }
+                    if (string.IsNullOrEmpty(Input.Role))
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.Role_Customer);
+                    }
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
