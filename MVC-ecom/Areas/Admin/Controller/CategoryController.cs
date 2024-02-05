@@ -5,8 +5,12 @@ using Microsoft.EntityFrameworkCore;
 using MVC.DataAcess.Repository.IRepository;
 using MVC.DataAcess.data;
 using MVC.Model;
+using MVC.Utility;
+using Microsoft.AspNetCore.Authorization;
+using MVC.DataAcess;
 namespace MVC_ecom.Controllers
 {
+    [Authorize(Roles =SD.Role_Admin)]
     [Area("Admin")]
     public class CategoryController : Controller
     {

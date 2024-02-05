@@ -110,6 +110,14 @@ namespace MVC_ecom.Areas.Identity.Pages.Account
 
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList {get; set;}
+
+            [Required]
+            public string name { get; set; }
+            public string? City { get; set; }
+            public string? Postcode { get; set; }
+            public string? County { get; set; }
+            public string? Address { get; set; }
+            public string? PhoneNumber { get; set; }
         }
 
 
@@ -168,6 +176,12 @@ namespace MVC_ecom.Areas.Identity.Pages.Account
                     {
                         await _userManager.AddToRoleAsync(user, SD.Role_Customer);
                     }
+                    user.Address = Input.Address;
+                    user.PhoneNumber = Input.PhoneNumber;
+                    user.City = Input.City;
+                    user.County = Input.County;
+                    user.Postcode = Input.Postcode; 
+                    
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);

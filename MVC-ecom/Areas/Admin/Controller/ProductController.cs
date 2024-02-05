@@ -2,13 +2,16 @@
 using MVC.Models.ViewModel;
 using MVC.DataAcess;
 using Microsoft.AspNetCore.Mvc;
+using MVC.Utility;
 using MVC.DataAcess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Routing.Constraints;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_ecom.Controllers
 {
+    [Authorize(Roles = SD.Role_Admin)]
     [Area("Admin")]
     public class ProductController : Controller
     {
